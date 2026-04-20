@@ -1,29 +1,54 @@
 body {
     font-family: Roboto;
-    padding: 0vh 10vw 0vh 10vw;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+}
+
+.hero .content {
+    padding: 0vh 10vw 0vh 10vw;
 }
 
 .hero .top-hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 2.5%;
 }
 
 .top-hero ul{
     display: flex;
+    list-style: none;
+}
+
+.top-hero .hl1 {
+    padding: 0px 8px 0px 0px;
+}
+
+.top-hero .hl2 {
+    padding: 0px 8px 0px 0px;
+}
+
+.top-hero .hl3 {
+    padding: 0px;
+}
+
+.hero p {
+    color: lightgray;
 }
 
 .hero .bottom-hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10%;
 }
 
 .left-b-hero {
@@ -31,31 +56,87 @@ body {
     margin-right: 10%;
 }
 
-.right-b-hero {
-    /* width: 60%; */
-    padding: 30px 20x 30px 20px;
-    border-style: dotted;
+.left-b-hero button {
+    margin-top: 10%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-width: 1px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+}
+
+.hero .right-b-hero {
+    width: 310px;
+    height: 160px;
+    /* padding: 50px 20x 50px 20px; */
+    border-style: none;
     background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.right-b-hero p {
+    color: white;
 }
 
 .info {
+    padding: 0vh 12.5vw 0vh 12.5vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin: 2% 0% 5% 0%;
 }
+
+.info h2 {
+    margin: 0;
+    padding: 0;
+}
+
 
 .info ul {
     display: flex;
+    margin:0;
+    padding:0;
+    justify-content: center;
+    list-style: none;
+
 }
 
 .info li {
     display: flex;
     flex-direction: column;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 6% 8% 6%;
+    flex-wrap: wrap;
+    width: 100px;
+    text-align: center;
 }
 
-.qoute {
+.info .outline {
+    width: 100px;
+    height: 100px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.quote {
     display: flex;
     flex-direction: column;
+}
+
+.quote .content {
+    padding: 0vh 12.5vw 0vh 12.5vw;
 }
 
 .quote .person {
@@ -73,6 +154,10 @@ body {
     border-radius: 10px;
 }
 
+.sign-up .content {
+    padding: 0vh 10vw 0vh 10vw;
+}
+
 .sign-up button {
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
@@ -81,6 +166,7 @@ body {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
+    border-style: solid;
 }
 
 .sign-left {
@@ -97,6 +183,10 @@ body {
 
 .sign-left h1 {
     font-size: 16px;
+}
+
+.sign-left p {
+    color: whitesmoke;
 }
 
 .footer {
