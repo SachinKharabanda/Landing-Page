@@ -133,6 +133,9 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .quote .content {
@@ -142,6 +145,14 @@ body {
 .quote .person {
     display: flex;
     justify-content: flex-end;
+    font-weight: bold;
+}
+
+.quote-line {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .sign-up {
@@ -192,4 +203,8 @@ body {
 .footer {
     display: flex;
     justify-content: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: whitesmoke;
+    background-color: #1f2937;
 }
